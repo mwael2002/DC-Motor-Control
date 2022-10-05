@@ -14,7 +14,7 @@
  */
 
 
-#define REF_V                      AVCC 
+#define REF_V                         AVCC
 /*
  * Choose maximum voltage of ADC either it's in AREF OR AVCC mode
  */
@@ -25,7 +25,7 @@
  * 1-EIGHT_BITS_RES
  * 2-TEN_BITS_RES
  */
-#define RES     TEN_BITS_RES
+#define RES     EIGHT_BITS_RES
 
 
 /*Choose Prescaler:
