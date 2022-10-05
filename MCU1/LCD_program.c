@@ -102,7 +102,8 @@ void shift_display_right(void){
 
 
 void shift_entire_display_right_initial_pos(void){
-for(U8 counter=0;counter<24;counter++){
+U8 counter;
+   for(counter=0;counter<24;counter++){
 	LCD_send_cmd(0b00011100);
 }
 current_address=init_left_bottom_limit;
@@ -172,7 +173,8 @@ void LCD_write_no(U32 num){
 		}
 			str[counter]='\0';
 			U8 j=0;
-			for(S8 i=(counter-1);i>=0;i--){
+		        S8 i;
+			for(i=(counter-1);i>=0;i--){
 				str_2[j]=str[i];
 				j++;
 			}
@@ -198,7 +200,8 @@ void LCD_write_no_pos(U32 num,U8 y_pos, U8 x_pos){
 	}
 		str[counter]='\0';
 		U8 j=0;
-		for(S8 i=(counter-1);i>=0;i--){
+	        S8 i;
+		for (i=(counter-1);i>=0;i--){
 			str_2[j]=str[i];
 			j++;
 		}
