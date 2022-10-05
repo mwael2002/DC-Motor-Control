@@ -8,9 +8,9 @@
 #ifndef LCD_CONFIG_H_
 #define LCD_CONFIG_H_
 #define LCD_control_port      Group_D
-#define LCD_Rs_pin            DIO_Pin_0
-#define LCD_Rw_pin            DIO_Pin_1
-#define LCD_E_pin             DIO_Pin_2
+#define LCD_Rs_pin            DIO_Pin_5
+#define LCD_Rw_pin            DIO_Pin_6
+#define LCD_E_pin             DIO_Pin_7
 #define LCD_data_port         Group_B
 #define LCD_data_pin_0        DIO_Pin_0
 #define LCD_data_pin_1        DIO_Pin_1
