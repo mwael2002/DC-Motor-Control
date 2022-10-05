@@ -38,8 +38,8 @@
 
 /*************************************************************************************************/
 
-#define TIMER2_MODE                                      TIMER2_FAST_PWM_MODE
-#define TIMER2_PRESCALER                                 TIMER2_DIVIDE_BY_128
+#define TIMER2_MODE                                          TIMER2_FAST_PWM_MODE
+#define TIMER2_PRESCALER                                 TIMER2_DIVIDE_BY_8
 #define TIMER2_OVERFLOW_TIME_MILLISECONDS                100
 #define TIMER2_CTC_MODE_OUTPUT                           TIMER2_CTC_TOGGLE
 #define TIMER2_FAST_PWM_MODE_OUTPUT                      TIMER2_FAST_PWM_CLEAR_CMP
