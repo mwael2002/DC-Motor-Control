@@ -14,7 +14,7 @@
  */
 
 
-#define REF_V                         AVCC
+#define REF_V                      AVCC 
 /*
  * Choose maximum voltage of ADC either it's in AREF OR AVCC mode
  */
